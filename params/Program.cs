@@ -31,11 +31,6 @@ namespace @params
             UseParams(myArray);
             object[] myObjs = { 2, 'b', "test", "again" };
             UseParams2(myObjs);
-            //UseParams(myObjs);
-            //I am not sure why the following line just prints System.Int32. This example if from 
-            //MSDN's content with Title Params(C# reference) and here is the comment they have about
-            // it: "The following call does not cause an error, but the entire 
-            // integer array becomes the first element of the params array."
 
             UseParams2(myArray);
             Console.ReadLine();
